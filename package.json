@@ -2,15 +2,36 @@
   "name": "kg-to-lbs",
   "version": "0.1.0",
   "description": "Small TypeScript utilities for converting kilograms, pounds, ounces, and stones.",
+  "keywords": [
+    "kg",
+    "lbs",
+    "kilograms",
+    "pounds",
+    "weight",
+    "converter",
+    "conversion"
+  ],
   "homepage": "https://kgtolbs.org",
+  "bugs": {
+    "url": "https://github.com/weizixiao/kg-to-lbs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weizixiao/kg-to-lbs.git"
+  },
+  "license": "MIT",
+  "author": "winter",
   "type": "module",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
       "default": "./dist/index.js"
     }
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "directories": {
+    "test": "test"
   },
   "files": [
     "dist",
@@ -24,21 +45,11 @@
     "test": "npm run build && node --test test/conversion.test.mjs",
     "pack:dry-run": "npm pack --dry-run"
   },
-  "keywords": [
-    "kg",
-    "lbs",
-    "kilograms",
-    "pounds",
-    "weight",
-    "converter",
-    "conversion"
-  ],
-  "license": "MIT",
-  "sideEffects": false,
   "devDependencies": {
     "typescript": "^5"
   },
   "engines": {
     "node": ">=18"
-  }
+  },
+  "sideEffects": false
 }
