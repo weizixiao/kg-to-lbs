@@ -2,7 +2,7 @@
 
 Small TypeScript utilities for kilogram, pound, ounce, and stone conversions.
 
-Website: https://kgtolbs.org
+Website: [kg to lbs converter](https://kgtolbs.org)
 
 ## Install
 
